@@ -19,6 +19,7 @@
 	width:300px;
 	border-style: solid;
 	border-width: thin;
+	border-color: gray;
 }
 .box1:nth-child(1){
 	margin-right: 30px;
@@ -60,9 +61,11 @@
 }
 h3{
 	padding: 10px;
+	color: black;
 }
 p{
 	padding: 10px;
+	color: black;
 }
 @media screen and (max-width: 768px){
 	.boxes{
@@ -72,8 +75,7 @@ p{
 		margin-bottom: 30px;
 	}
 	.box1{
-		width: 90%;
-		margin-left: 5%;
+		width: 100%;
 		margin-bottom: 20px;
 		float: none;
 	}
